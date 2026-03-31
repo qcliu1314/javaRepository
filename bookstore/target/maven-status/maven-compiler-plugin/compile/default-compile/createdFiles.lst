@@ -1,0 +1,4 @@
+com\example\bookstore\entity\User.class
+com\example\bookstore\BookstoreApplication.class
+com\example\bookstore\controller\UserController.class
+com\example\bookstore\mapper\UserMapper.class
