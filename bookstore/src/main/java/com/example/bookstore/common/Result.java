@@ -8,6 +8,13 @@ public class Result<T> {
     private String msg;
     private T data;
 
+    public static <T> Result<T> success() {
+        Result<T> r = new Result<>();
+        r.setCode(200);
+        r.setMsg("成功");
+        return r;
+    }
+
     public static <T> Result<T> success(T data) {
         Result<T> r = new Result<>();
         r.setCode(200);
@@ -16,7 +23,7 @@ public class Result<T> {
         return r;
     }
 
-    public static <T> Result<T> fail(String msg) {
+    public static <T> Result<T> error(String msg) {
         Result<T> r = new Result<>();
         r.setCode(500);
         r.setMsg(msg);

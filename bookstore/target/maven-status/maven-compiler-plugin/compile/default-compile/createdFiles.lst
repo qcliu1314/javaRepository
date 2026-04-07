@@ -1,4 +1,6 @@
-com\example\bookstore\entity\User.class
+com\example\bookstore\user\service\UserService.class
+com\example\bookstore\user\controller\UserController.class
+com\example\bookstore\user\mapper\UserMapper.class
+com\example\bookstore\user\entity\User.class
 com\example\bookstore\BookstoreApplication.class
-com\example\bookstore\controller\UserController.class
-com\example\bookstore\mapper\UserMapper.class
+com\example\bookstore\user\service\impl\UserServiceImpl.class
